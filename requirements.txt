@@ -1,0 +1,5 @@
+requests
+fastapi
+uvicorn
+pydantic
+open-nsfw-python3

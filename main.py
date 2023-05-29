@@ -12,7 +12,7 @@ from open_nsfw_python3 import NSFWClassifier
 import os
 from time import time
 
-API_KEY = "1234567asdfgh"
+API_KEY = os.getenv('API_KEY')
 api_key_query = APIKeyQuery(name='api_key', auto_error=False)
 app = FastAPI()
 
